@@ -102,7 +102,10 @@ img {
 }
 .header {
     background-color: #F2CEDA;
-    padding-bottom: 196px;
+    padding-bottom: 3px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .header__side {
     width: 1125px;
@@ -165,6 +168,7 @@ img {
 
 .hero {
     background-color: #F2CEDA;
+    padding-top: 120px;
 }
 .hero__flex {
     display: flex;
